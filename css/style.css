@@ -1,0 +1,105 @@
+body{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.container{
+	width: 255px;
+	height: 225px;
+	position: relative;
+	top: 80px;
+	left: 40%;
+	background: black;
+	font-size: 18px;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	letter-spacing: 1px;
+	padding: 5px;
+	box-shadow: 6px 6px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	
+}
+.screen{
+	width: 100%;
+	height: 35px;
+	margin-left: 5px;
+	float: left;
+
+}
+.screen input{
+	height: 35px;
+	width: 180px;
+	text-align:right; 
+	padding: 0 5px 0 0;
+	background: black;
+	border-style: solid;
+	border-color: #888;
+	border-width: 1px;
+	color: white;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+	font-size: 19px;
+}
+.clearBtn{
+	display: inline-block;
+	position: relative;
+	width: 55px;
+	height: 37px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 3px;
+	text-align: center; 
+  	line-height: 35px;
+  	background-color: orange;
+  	color: white;
+  	border-color: orange;
+  	cursor: pointer;
+}
+.buttons{
+	position: relative;
+	top: 15px;
+	cursor: pointer;
+
+}
+
+.buttons div{
+	position: relative;
+	border-style: solid;
+	border-width: 1px;
+	width: 55px;
+	height: 35px;
+	float: left;
+	border-radius: 3px;
+	margin-left: 5px;
+	margin-top: 5px;
+  	text-align: center; 
+  	line-height: 35px;
+  	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+  	color: black;
+  	background-color: white;
+}
+.operators{
+	background-color: orange !important;
+	color: white !important;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+	font-size: 25px;
+	border-color: orange
+}
+.error{
+	border-color: red !important;
+	color: red !important;
+
+}
+
+.buttons div:hover{
+	background: #f1f1f1;
+}
+
+.buttons div:active{
+	top: 2px;
+}
+
+.clearBtn:active{
+	top: 2px;
+}
