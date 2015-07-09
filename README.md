@@ -1,0 +1,3 @@
+# JSCalc
+Pure Javascript calculator 
+
